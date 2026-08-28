@@ -36,3 +36,7 @@ double Rectangle::getArea() const
 {
 	return length * width;
 }
+bool Rectangle::Valid() const
+{
+	return length > 0 && width > 0;
+}
